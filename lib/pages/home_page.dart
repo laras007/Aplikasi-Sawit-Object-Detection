@@ -5,9 +5,7 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text('Agrinas Palma Nusantara'),
-      ),
+      appBar: AppBar(title: Text('Agrinas Palma Nusantara')),
       body: Container(
         alignment: Alignment.center,
         child: Column(
@@ -24,10 +22,7 @@ class HomePage extends StatelessWidget {
               },
               child: const Text('Mulai Deteksi'),
             ),
-            ElevatedButton(
-              onPressed: (){},
-              child: const Text('Ambil Gambar')
-            )
+            ElevatedButton(onPressed: () {}, child: const Text('Ambil Gambar')),
           ],
         ),
       ),
